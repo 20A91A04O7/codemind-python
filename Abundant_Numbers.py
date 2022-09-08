@@ -1,10 +1,10 @@
-n=int(input())
+N=int(input( ))
 s=0
-for i in range(1,n):
-    if n%i==0:
+for i in range(1,N):
+    if N%i==0:
         s+=i
-if n<s:
-        print("True")
+if N<s:
+    print("True")
 else:
-        print("False")
+    print("False")
         
